@@ -150,7 +150,6 @@ nav a:hover {
 .widget_titulo {
     margin: 30px 0 20px 0;
 }
-
 .widget_titulo_texto {
     color: black;
     font-size: 20px;
@@ -162,34 +161,27 @@ nav a:hover {
     background-color: #39aae1;
     margin-top: 10px;
 }
-.widget_body {
-    font-size: 13px;
-    margin: 10px 0 20px 0;
-}
 
+.widget_body_dep {
+    display: flex;
+    justify-content:space-between;
+}
+.widget_body_dep_box {
+    flex: 1;
+    height: 130px;
+    background-color: #39aae1;
+    margin: 10px;
+}
+.widget_body_marcacao {
+    font-size: 13px;
+    margin: 10px 0 0px;
+}
 .widget_body_line {
     width: 100%;
     height: 1px;
     background-color: #bbc8cf;
     margin-top: 10px;
 }
-.widget_body {
-    display: flex;
-    margin: 0;
-    justify-content: space-between;
-}
-.widget_body_box {
-    flex: 1;
-    
-    height: 120px;
-    background-color: #39aae1;
-    margin: 20px;
-}
-.widget_body_marcacao {
-    font-size: 13px;
-    margin: 10px 0 0px;
-}
-
 .widget_body_marcacao img {
     display: inline-block;
     vertical-align:middle;
