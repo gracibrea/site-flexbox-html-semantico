@@ -230,6 +230,7 @@ article .noticia_resumo {
 .widget_body_marcacao {
     font-size: 13px;
     margin: 10px 0 0px;
+    text-align: justify;
 }
 .widget_body_line {
     width: 100%;
