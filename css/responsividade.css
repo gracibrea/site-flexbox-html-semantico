@@ -1,0 +1,30 @@
+@media (max-width: 600px) {
+    .banner_textoprincipal h1 {
+        font-size: 55px;
+    }
+    .banner_textoprincipal h2 {
+        font-size: 22px;
+    }
+    .banner_textoprincipal {
+        padding: 20px;
+    }
+    .banner_colunas {
+        height: auto;
+        flex-direction: column;
+    }
+    .container {
+        flex-direction: column;
+    }
+    #geral section {
+        padding: 20px;
+        margin-top: 130px;
+    }
+    #geral aside {
+        padding: 20px
+    }
+    .widget_body_dep_box {
+        height: 155px;
+        width: 155px;
+        justify-content:center;
+        margin: 20px 60px;
+}

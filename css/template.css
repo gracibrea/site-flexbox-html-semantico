@@ -168,7 +168,6 @@ nav a:hover {
     flex-wrap: wrap;/*coloca todos os artigos lado a lado, dependendo da largura determinada para o artigo*/
 }
 
-
 article {
     flex: 1;
     min-width: 300px;
@@ -214,7 +213,6 @@ article .noticia_resumo {
     margin-bottom: 20px;
     line-height: 17px;
 }
-
 
 .widget_body_dep {
     display: flex;
@@ -292,6 +290,7 @@ footer .coluna3_rodape {
 .rodape_texto {
     font-size: 13px;
     padding-bottom: 15px;
+    color: rgb(212, 211, 211);
 }
 
 
