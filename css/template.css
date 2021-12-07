@@ -168,6 +168,7 @@ nav a:hover {
     flex-wrap: wrap;/*coloca todos os artigos lado a lado, dependendo da largura determinada para o artigo*/
 }
 
+
 article {
     flex: 1;
     min-width: 300px;
@@ -215,7 +216,6 @@ article .noticia_resumo {
 }
 
 
-
 .widget_body_dep {
     display: flex;
     justify-content:space-between;
@@ -244,6 +244,107 @@ article .noticia_resumo {
     padding-right: 5px;
 }
 footer {
-    padding: 10px;
-    background-color: black;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.flexcoluna {
+    flex-direction: column; /*Lembrar que, por default, container é flex-direction:row*/
+}
+
+footer .coluna1_rodape,
+footer .coluna2_rodape,
+footer .coluna3_rodape {
+    flex: 1;
+    padding: 20px 20px 10px 20px;
+    color: white;
+}
+
+footer .coluna1_rodape {
+    background-color: #39aae1;
+
+}
+footer .coluna2_rodape {
+    background-color: #0079c7;
+}
+footer .coluna3_rodape {
+    background-color: #2b4c99;  
+}
+
+.colunas_rodape a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.colunas_rodape {
+    display: flex;
+    height: 100px;  
+    color: white;
+}
+
+.rodape_titulo1 {
+    font-size: 20px;
+}
+
+.rodape_texto {
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+
+
+.colunas2_rodape {
+    display: flex;
+    color: white;
+    font-size: 15px;
+}
+.coluna4_rodape,
+.coluna5_rodape,
+.coluna6_rodape {
+    flex: 1;
+    padding-right: 10px ;
+}
+
+footer .widget_titulo_texto {
+    color: white;
+}
+
+.rodape_titulo2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.rodape_barra {
+    background-color: #0079c7;
+    width: 50px;
+    height: 2px;
+}
+.rodape_texto {
+    line-height: 17px;
+    font-size: 13px;
+    padding: 20px 0;
+}
+
+.clinicas1,
+.clinicas2,
+.clinicas3 {
+    display:flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.social {
+display: flex;
+padding: 20px 0;
+}
+
+.copy {
+    border-top: #363636 solid 0.3px;
+    height: 40px;
+    line-height: 40px;
+    color: #686868;
+    font-size: 12px;
+    margin-top: 30px;
 }
