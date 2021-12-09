@@ -29,6 +29,19 @@ header {
     text-decoration: none; 
 }
 
+.menuMobile {
+    display: none;/*Não vai aparecer em tela grande, somente em mobile*/
+    width: 40px;
+    height: 40px;
+    margin: 40px 20px 40px 0;
+}
+.menuMobile_barra {
+    width: 30px;
+    height: 2.5px; 
+    margin: auto;   
+    background-color:#2b4c99;
+    }
+
 nav ul,
 nav li {
     list-style: none;
@@ -46,8 +59,7 @@ nav a {
     padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #727272;
-    
+    color: #727272;    
 }
 
 nav .active a,
@@ -261,7 +273,6 @@ footer .coluna3_rodape {
 
 footer .coluna1_rodape {
     background-color: #39aae1;
-
 }
 footer .coluna2_rodape {
     background-color: #0079c7;
@@ -269,7 +280,6 @@ footer .coluna2_rodape {
 footer .coluna3_rodape {
     background-color: #2b4c99;  
 }
-
 .colunas_rodape a {
     display: block;
     text-decoration: none;
@@ -332,11 +342,20 @@ footer .widget_titulo_texto {
     display:flex;
     justify-content: space-between;
     padding-right: 20px;
+    font-size: 13px;
+    color: rgb(212, 211, 211);
+}
+.clinica3_email a {    
+    color:#fff;
 }
 
-.social {
+.socials {
 display: flex;
-padding: 20px 0;
+padding: 20px 0px;
+}
+
+.socialicon {
+    padding: 30px 10px;
 }
 
 .copy {

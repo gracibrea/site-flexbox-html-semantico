@@ -28,20 +28,41 @@
         justify-content:center;
         margin: 20px 60px;
     }
-    .widget_titulo_texto,
-    .rodape_texto, 
-    .widget_titulo_barra,
-    .clinicas {
-        margin-left: 5px;
+    .rodape_titulo1 {
+        font-size: 18px;
     }
-    .colunas2_rodape,
-    .rodape_texto {
-        font-size: 12px;
+    .rodape_link {
+        font-size: 14px;
     }
-    .clinicas {
-        font-size: 11px;        
+    .colunas_rodape,
+    .colunas2_rodape {
+        flex-direction:column-reverse;
+        margin: 20px;
     }
     .copy {
         padding-left: 5px;
+    }
+
+    /*Resolvendo o menu*/
+    header .container {
+        flex-direction: row;
+    }
+    nav ul{
+        flex-direction: column;
+        display: none;
+    }
+    /*tirar a altura fixa do header para que ela expanda quando o menu ficar em coluna*/
+    header {
+        height: auto;
+        padding-right: 25px;
+    }
+    .logo {
+        padding-left: 20px;
+    }
+    /*criar o menusanduíche menuMobile no template*/
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 }
