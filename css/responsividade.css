@@ -22,6 +22,7 @@
     #geral aside {
         padding: 20px
     }
+
     .widget_body_dep_box {
         height: 155px;
         width: 155px;
@@ -50,6 +51,10 @@
     nav ul{
         flex-direction: column;
         display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
     }
     /*tirar a altura fixa do header para que ela expanda quando o menu ficar em coluna*/
     header {
