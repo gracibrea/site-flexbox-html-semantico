@@ -1,7 +1,20 @@
 @media(max-width:959px){
+
+    header .container {
+        margin-right: 20px;
+    }
+    .logo,
+    .banner_textoprincipal {
+        margin-left: 10px;
+    }
+    
     aside .margin{
         margin-right: 15px;
         margin-bottom: 15px;
+    }
+    aside .widget_titulo_texto,
+    aside .widget_titulo_barra {
+        margin-left: 0;
     }
     .departmentsArea{
         margin-bottom: 15px;
@@ -9,6 +22,15 @@
     article{
         margin-left: 20px;
     }  
+    .widget_titulo_texto,
+    .widget_titulo_barra,
+    .rodape_texto,
+    .clinicas {
+        margin-left: 20px;
+    }
+    .copy {
+        padding-left: 10px;
+    }
 }
 
 @media screen and (min-width: 720px) and (max-width: 944px){
@@ -27,12 +49,15 @@
         font-size: .7rem;
     }
 }
-@media(max-width: 719px){
+@media(max-width: 739px){
     aside .departmentsArea, .margin{
         margin: 0px 0px 15px 0px;
     }
     aside .geralAside{
         flex-direction: column;
+    }
+    .logo {
+        margin-left: 10px;
     }
 }
 @media(max-width:400px){
@@ -78,12 +103,12 @@
         padding: 20px
     }*/
 
-    .widget_body_dep_box {
+    /*.widget_body_dep_box {
         height: 155px;
         width: 155px;
         justify-content:center;
         margin: 20px 60px;
-    }
+    }*/
     .rodape_titulo1 {
         font-size: 18px;
         margin-top: 0;

@@ -241,7 +241,7 @@ article .noticia_resumo {
     line-height: 17px;
 }
 
-.widget_body_dep {
+/*.widget_body_dep {
     display: flex;
     justify-content:space-between;
 }
@@ -251,7 +251,7 @@ article .noticia_resumo {
     justify-content: space-between;
     background-color: #39aae1;
     margin: 0 0 20px 0;
-}
+}*/
 .widget_body_marcacao {
     font-size: 13px;
     margin: 10px 0 0px;
@@ -366,7 +366,7 @@ footer .widget_titulo_texto {
 
 .socials {
 display: flex;
-padding: 20px 0px;
+padding: 20px 0;
 }
 
 .socialicon {
